@@ -1,0 +1,13 @@
+name: TotemCooldown
+version: 1.0.0
+main: com.example.totemcooldown.TotemCooldownPlugin
+api-version: '26.3'
+description: Allows each player to activate one Totem of Undying every 20 in-game days.
+commands:
+  totemtimer:
+    description: Shows your remaining totem cooldown.
+    usage: /totemtimer
+permissions:
+  totemcooldown.bypass:
+    description: Allows a player to bypass the totem cooldown.
+    default: op
